@@ -43,7 +43,7 @@ eval_step: 1
 stopping_step: 20
 train_neg_sample_args: ~
 train_from_scratch: False
-checkpoint_path: saved/TiM4Rec-Sep-19-2024_23-23-37.pth
+#checkpoint_path: saved/TiM4Rec-Sep-19-2024_23-23-37.pth
 
 # evaluation settings
 metrics: ['Hit', 'NDCG', 'MRR']

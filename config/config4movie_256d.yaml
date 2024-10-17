@@ -42,7 +42,6 @@ eval_step: 1
 stopping_step: 20
 train_neg_sample_args: ~
 train_from_scratch: False
-#checkpoint_path: saved/SSD4Rec-Sep-08-2024_13-01-59.pth
 
 # evaluation settings
 metrics: ['Hit', 'NDCG', 'MRR']
