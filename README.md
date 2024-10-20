@@ -118,7 +118,7 @@ cd ./baseline/SASRec
 python run.py
 ```
 ### 3.3 Model testing
-If you want to directly test the performance of a specified model weight, you can refer to the method in section [3.1](#31-tim4rec), modify the configuration file name in the [`🐍 test.py`](test.py) file and add the `checkpoint_math` item in the corresponding configuration file, and then perform the test:
+If you want to directly test the performance of a specified model weight, you can refer to the method in section [3.1](#31-tim4rec), modify the configuration file name in the [`🐍 test.py`](test.py) file and add the `checkpoint_path` item in the corresponding configuration file, and then perform the test:
 ```shell
 python test.py
 ```
