@@ -44,7 +44,7 @@ You can also view detailed environment information in File [environment.yaml](en
 ### 2.2 DataSets
 This work utilizes the following three datasets, among which [`🎦 MovieLens-1M`](https://grouplens.org/datasets/movielens/) and [`🛒 Amazon-Beauty`](https://jmcauley.ucsd.edu/data/amazon/index_2014.html) dataset is provided by [RecBole](https://github.com/RUCAIBox/RecSysDatasets), [`📱 KuaiRand`](https://kuairand.com/) dataset is provided by the author of [SSD4Rec](https://arxiv.org/abs/2409.01192). 
 
-All dataset files can be obtained from the cloud storage: [Quark Drive (password: **SVzs**)](https://pan.quark.cn/s/8bb746acc798).
+All dataset files can be obtained from the cloud storage: [Quark Drive (password: **SVzs**)](https://pan.quark.cn/s/8bb746acc798) / [BaiDu Cloud Drive (password: **1296**)](https://pan.baidu.com/s/10GUBfkdqd7iPiXTw5ulQtA?pwd=1296).
 
 - [`🎦 MovieLens-1M`](https://grouplens.org/datasets/movielens/): A dataset containing approximately 1 million user ratings for movies, collected from the MovieLens platform.
 - [`🛒 Amazon-Beauty`](https://jmcauley.ucsd.edu/data/amazon/index_2014.html): The user review dataset collected in the beauty category on the Amazon platform was compiled up to the year 2014. 
@@ -94,7 +94,7 @@ You can click on the directory below to expand and view the project structure:
 </ul>
 </details>
 
-You can download files from the cloud storage and put them in the corresponding folder. [Quark Drive (password: **SVzs**)](https://pan.quark.cn/s/8bb746acc798).
+You can download files from the cloud storage and put them in the corresponding folder. [Quark Drive (password: **SVzs**)](https://pan.quark.cn/s/8bb746acc798) / [BaiDu Cloud Drive (password: **1296**)](https://pan.baidu.com/s/10GUBfkdqd7iPiXTw5ulQtA?pwd=1296).
 
 ## 3. Run
 Ok, congratulations 🎇, you have finished all the preparation 👍, let's start training the model! 😄 
