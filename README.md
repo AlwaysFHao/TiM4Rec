@@ -4,7 +4,7 @@ Due to the laboratory regulations, the article has not been officially published
 so the current repository is not complete, but do not worry, we will supplement the complete model code immediately after the article is officially published. 
 You can also first check the performance of the **TiM4Rec** model by using the training log files we published. 😊
 
-如果你想阅读中文版本，请点击[README_CN.md](README_CN) 。
+如果您想阅读中文版本，请点击[README_CN.md](README_CN.md) 。
 ## 1. Introduction
   <p align="center">
     <img src="assert/tim4rec.png" alt="overview_of_tim4rec"/>
