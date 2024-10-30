@@ -34,6 +34,10 @@ The following are the main runtime environment dependencies for running the repo
 - recbole 1.2.0
 - mamba-ssm 2.2.2
 - casual-conv1d 1.2.2 (Since we implemented the casual-conv1d equivalent using 'nn.Conv1d', this entry is optional)
+- psutil 6.1.0
+- numpy 1.26.4
+
+If you are having trouble installing Mamba, please refer to the installation tutorial we wrote: [https://github.com/AlwaysFHao/Mamba-Install](https://github.com/AlwaysFHao/Mamba-Install).
 
 You can also view detailed environment information in File [environment.yaml](environment.yaml).
 
@@ -131,13 +135,10 @@ In addition, our readme document was written with reference to [MISSRec](https:/
 ## 5. References
 If you find this code useful or use the toolkit in your work, please consider citing:
 ```
-@misc{fan2024tim4recefficientsequentialrecommendation,
-      title={TiM4Rec: An Efficient Sequential Recommendation Model Based on Time-Aware Structured State Space Duality Model}, 
-      author={Hao Fan and Mengyi Zhu and Yanrong Hu and Hailin Feng and Zhijie He and Hongjiu Liu and Qingyang Liu},
-      year={2024},
-      eprint={2409.16182},
-      archivePrefix={arXiv},
-      primaryClass={cs.IR},
-      url={https://arxiv.org/abs/2409.16182}, 
+@article{fan2024tim4rec,
+  title={TiM4Rec: An Efficient Sequential Recommendation Model Based on Time-Aware Structured State Space Duality Model},
+  author={Fan, Hao and Zhu, Mengyi and Hu, Yanrong and Feng, Hailin and He, Zhijie and Liu, Hongjiu and Liu, Qingyang},
+  journal={arXiv preprint arXiv:2409.16182},
+  year={2024}
 }
 ```

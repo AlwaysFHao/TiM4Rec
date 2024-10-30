@@ -3,6 +3,7 @@
 # @Time : 2024/6/13
 import sys
 
+import torch
 from recbole.config import Config
 from logging import getLogger
 from tim4rec import TiM4Rec
@@ -17,6 +18,9 @@ from recbole.utils import (
     get_flops,
     get_environment,
 )
+
+torch.backends.cuda.matmul.allow_tf32 = False
+torch.backends.cudnn.allow_tf32 = False
 
 if __name__ == '__main__':
     config = Config(model=TiM4Rec, config_file_list=[f'config/config4beauty_64d.yaml'])
