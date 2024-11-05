@@ -1,5 +1,11 @@
 # TiM4Rec: An Efficient Sequential Recommendation Model Based on Time-Aware Structured State Space Duality Model
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tim4rec-an-efficient-sequential/sequential-recommendation-on-movielens-1m)](https://paperswithcode.com/sota/sequential-recommendation-on-movielens-1m?p=tim4rec-an-efficient-sequential)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tim4rec-an-efficient-sequential/sequential-recommendation-on-kuairand)](https://paperswithcode.com/sota/sequential-recommendation-on-kuairand?p=tim4rec-an-efficient-sequential)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tim4rec-an-efficient-sequential/sequential-recommendation-on-amazon-beauty)](https://paperswithcode.com/sota/sequential-recommendation-on-amazon-beauty?p=tim4rec-an-efficient-sequential)
+
+![Stars](https://img.shields.io/github/stars/AlwaysFHao/TiM4Rec)
+
 由于实验室规定，文章未正式发表前不允许公布模型源代码，所以目前的资源库还不完整，不过您不用担心，文章正式发表后我们会立即补充完整的模型代码。
 您也可以先使用我们发布的训练日志文件检查**TiM4Rec**模型的性能。😊
 
