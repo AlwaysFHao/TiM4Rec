@@ -49,7 +49,7 @@ cd TiM4Rec/
 ### 2.2 数据集
 我们的工作利用了以下三个数据集，其中包括由 [RecBole](https://github.com/RUCAIBox/RecSysDatasets) 提供的 [`🎦 MovieLens-1M`](https://grouplens.org/datasets/movielens/) 和 [`🛒 Amazon-Beauty`](https://jmcauley.ucsd.edu/data/amazon/index_2014.html)， 以及由 [SSD4Rec](https://arxiv.org/abs/2409.01192) 作者提供的 [`📱 KuaiRand`](https://kuairand.com/)。 
 
-您可以通过以下链接获得所有的数据集： [Quark Drive (password: **SVzs**)](https://pan.quark.cn/s/8bb746acc798) / [BaiDu Cloud Drive (password: **1296**)](https://pan.baidu.com/s/10GUBfkdqd7iPiXTw5ulQtA?pwd=1296)。
+您可以通过以下链接获得所有的数据集： [Quark Drive (password: **SVzs**)](https://pan.quark.cn/s/8bb746acc798) / [BaiDu Cloud Drive (password: **1296**)](https://pan.baidu.com/s/10GUBfkdqd7iPiXTw5ulQtA?pwd=1296) / [Google Drive](https://drive.google.com/drive/folders/11_tqDeG5oA4c6Bz7tjgEnMTeI6BbnCUr?usp=sharing)。
 
 - [`🎦 MovieLens-1M`](https://grouplens.org/datasets/movielens/): 该数据集包含从 MovieLens 平台收集的约 100 万条用户对电影的评分。
 - [`🛒 Amazon-Beauty`](https://jmcauley.ucsd.edu/data/amazon/index_2014.html): 亚马逊平台上收集至 2014 年的美容类别商品的用户评论数据集。
@@ -97,7 +97,7 @@ cd TiM4Rec/
 </ul>
 </details>
 
-您可以从云盘中下载文件 [Quark Drive (password: **SVzs**)](https://pan.quark.cn/s/8bb746acc798) / [BaiDu Cloud Drive (password: **1296**)](https://pan.baidu.com/s/10GUBfkdqd7iPiXTw5ulQtA?pwd=1296)，并将它们放到相应的文件夹中。 
+您可以从云盘中下载文件 [Quark Drive (password: **SVzs**)](https://pan.quark.cn/s/8bb746acc798) / [BaiDu Cloud Drive (password: **1296**)](https://pan.baidu.com/s/10GUBfkdqd7iPiXTw5ulQtA?pwd=1296) / [Google Drive](https://drive.google.com/drive/folders/11_tqDeG5oA4c6Bz7tjgEnMTeI6BbnCUr?usp=sharing)，并将它们放到相应的文件夹中。 
 
 ## 3. 运行
 好了，恭喜你🎇， 你已经完成所有的准备工作👍，我们可以开始训练模型了！😄 
