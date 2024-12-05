@@ -17,7 +17,7 @@ If you want to read the English version, please click [README_Eng.md](README.md)
 
 > **TiM4Rec: An Efficient Sequential Recommendation Model Based on Time-Aware Structured State Space Duality Model**\
 > 范昊，朱萌逸，胡彦蓉，冯海林，何志杰，刘洪久，刘清扬\
-> Paper: https://arxiv.org/abs/2409.16182v2
+> Paper: https://arxiv.org/abs/2409.16182
 
 我们提出了基于时间感知 SSD 的高效序列推荐模型***TiM4Rec***（Time-aware Mamba For Recommendation）。 
 我们在序列推荐领域对 Mamba 架构的时间感知增强方法进行了开创性的探索。 通过对 SSM 和 SSD 的深入分析，我们首次提出了适用于 SSD 架构的线性计算复杂度的时间感知增强方法。

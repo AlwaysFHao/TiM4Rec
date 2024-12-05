@@ -18,7 +18,7 @@ You can also first check the performance of the **TiM4Rec** model by using the t
 
 > **TiM4Rec: An Efficient Sequential Recommendation Model Based on Time-Aware Structured State Space Duality Model**\
 > Hao Fan, Mengyi Zhu, Yanrong Hu, Hailin Feng, Zhijie He, Hongjiu Liu, Qingyang Liu\
-> Paper: https://arxiv.org/abs/2409.16182v2
+> Paper: https://arxiv.org/abs/2409.16182
 
 We propose ***TiM4Rec***(Time-aware Mamba For Recommendation), an efficient sequential recommendation model based on Time-aware SSD. 
 We conducted a pioneering exploration of the time-aware enhancement methods of the Mamba architecture in the field of sequential recommendation. 
