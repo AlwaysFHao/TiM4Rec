@@ -51,13 +51,14 @@ If you are having trouble installing Mamba, please refer to the installation tut
 You can also view detailed environment information in File [environment.yaml](environment.yaml).
 
 ### 2.2 DataSets
-This work utilizes the following three datasets, among which [`🎦 MovieLens-1M`](https://grouplens.org/datasets/movielens/) and [`🛒 Amazon-Beauty`](https://jmcauley.ucsd.edu/data/amazon/index_2014.html) dataset is provided by [RecBole](https://github.com/RUCAIBox/RecSysDatasets), [`📱 KuaiRand`](https://kuairand.com/) dataset is provided by the author of [SSD4Rec](https://arxiv.org/abs/2409.01192). 
+This work utilizes the following four datasets, among which [`🎦 MovieLens-1M`](https://grouplens.org/datasets/movielens/), [`🛒 Amazon-Beauty`](https://jmcauley.ucsd.edu/data/amazon/index_2014.html) and [`🎮 Steam`](https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/Steam/not-merged/steam.zip) datasets are provided by [RecBole](https://github.com/RUCAIBox/RecSysDatasets), [`📱 KuaiRand`](https://kuairand.com/) dataset is provided by the author of [SSD4Rec](https://arxiv.org/abs/2409.01192). 
 
 All dataset files can be obtained from the cloud storage: [Quark Drive (password: **SVzs**)](https://pan.quark.cn/s/8bb746acc798) / [BaiDu Cloud Drive (password: **1296**)](https://pan.baidu.com/s/10GUBfkdqd7iPiXTw5ulQtA?pwd=1296) / [Google Drive](https://drive.google.com/drive/folders/11_tqDeG5oA4c6Bz7tjgEnMTeI6BbnCUr?usp=sharing). 
 
 - [`🎦 MovieLens-1M`](https://grouplens.org/datasets/movielens/): A dataset containing approximately 1 million user ratings for movies, collected from the MovieLens platform.
 - [`🛒 Amazon-Beauty`](https://jmcauley.ucsd.edu/data/amazon/index_2014.html): The user review dataset collected in the beauty category on the Amazon platform was compiled up to the year 2014. 
 - [`📱 KuaiRand`](https://kuairand.com/): Acquired from the recommendation logs of the application KuaiShou, the dataset includes millions of interactions involving items that were randomly displayed.
+- [`🎮 Steam`](https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/Steam/not-merged/steam.zip): The dataset collected by Kang et al. (SASRec authors) consists of user ratings from the Steam platform spanning from 2010 to 2018, which has been widely adopted as an evaluation benchmark in prior work. 
 
 ### 2.3 Project Structure
 In this section, you can learn about our project structure. 

@@ -48,13 +48,14 @@ cd TiM4Rec/
 您还可以在文件 [environment.yaml](environment.yaml) 查看所需的环境细节。
 
 ### 2.2 数据集
-我们的工作利用了以下三个数据集，其中包括由 [RecBole](https://github.com/RUCAIBox/RecSysDatasets) 提供的 [`🎦 MovieLens-1M`](https://grouplens.org/datasets/movielens/) 和 [`🛒 Amazon-Beauty`](https://jmcauley.ucsd.edu/data/amazon/index_2014.html)， 以及由 [SSD4Rec](https://arxiv.org/abs/2409.01192) 作者提供的 [`📱 KuaiRand`](https://kuairand.com/)。 
+我们的工作利用了以下三个数据集，其中包括由 [RecBole](https://github.com/RUCAIBox/RecSysDatasets) 提供的 [`🎦 MovieLens-1M`](https://grouplens.org/datasets/movielens/) 和 [`🛒 Amazon-Beauty`](https://jmcauley.ucsd.edu/data/amazon/index_2014.html)， 由 [SSD4Rec](https://arxiv.org/abs/2409.01192) 作者提供的 [`📱 KuaiRand`](https://kuairand.com/)， 以及[`🎮 Steam`](https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/Steam/not-merged/steam.zip)。 
 
 您可以通过以下链接获得所有的数据集： [Quark Drive (password: **SVzs**)](https://pan.quark.cn/s/8bb746acc798) / [BaiDu Cloud Drive (password: **1296**)](https://pan.baidu.com/s/10GUBfkdqd7iPiXTw5ulQtA?pwd=1296) / [Google Drive](https://drive.google.com/drive/folders/11_tqDeG5oA4c6Bz7tjgEnMTeI6BbnCUr?usp=sharing)。
 
 - [`🎦 MovieLens-1M`](https://grouplens.org/datasets/movielens/): 该数据集包含从 MovieLens 平台收集的约 100 万条用户对电影的评分。
 - [`🛒 Amazon-Beauty`](https://jmcauley.ucsd.edu/data/amazon/index_2014.html): 亚马逊平台上收集至 2014 年的美容类别商品的用户评论数据集。
 - [`📱 KuaiRand`](https://kuairand.com/): 该数据集取自 "快手 "APP的推荐日志，其中包括数百万次涉及随机显示物品的交互记录。
+- [`🎮 Steam`](https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/Steam/not-merged/steam.zip): Kang等人收集的数据集，包括2010年至2018年Steam平台的用户评分数据集，该数据集已被广泛用作先前工作中的评估基准。
 
 ### 2.3 项目结构
 在本节中，我们将介绍项目结构。您可以点击展开下面的目录来查看项目结构：
