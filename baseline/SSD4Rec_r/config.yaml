@@ -1,21 +1,29 @@
 gpu_id: '0'
 log_wandb: False
+reproducibility: True
 
-# mamba4rec settings
+
+# ssd4rec settings
 hidden_size: 64                 # (int) Number of features in the hidden state.
 num_layers: 2                  # (int) Number of Mamba layers.
 dropout_prob: 0.2            # (float) Dropout rate.
 loss_type: 'CE'                 # (str) Type of loss function. Range in ['BPR', 'CE'].
 
-d_state: 32                     # (int) SSM state expansion factor
+d_state: 32                     # (int) SSD state expansion factor
 d_conv: 4                       # (int) Local convolution width
 expand: 2                       # (int) Block expansion factor
+head_dim: 32                   # (int) Number of SSD heads
+chunk_size: 32                 # (int) Size of SSD Chunk
+norm_eps: 1e-12
 
-## dataset settings
+is_ffn: True
+is_kai_ming_init: False
+
+# dataset settings
 dataset: ml-1m
 MAX_ITEM_LIST_LENGTH: 200       # 200 for MovieLens-1M
 
-# dataset: amazon-beauty
+#dataset: amazon-beauty
 #dataset: kuairand
 #dataset: steam
 #MAX_ITEM_LIST_LENGTH: 50      # 50 for Amazon datasets
@@ -39,7 +47,7 @@ train_batch_size: 2048
 learner: adam
 learning_rate: 0.001
 eval_step: 1
-stopping_step: 20
+stopping_step: 10
 train_neg_sample_args: ~
 train_from_scratch: False
 

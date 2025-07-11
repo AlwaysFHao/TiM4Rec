@@ -6,9 +6,11 @@
 
 ![Stars](https://img.shields.io/github/stars/AlwaysFHao/TiM4Rec)
 
-Due to the laboratory regulations, the article has not been officially published before the model source code is not allowed to be published, 
-so the current repository is not complete, but do not worry, we will supplement the complete model code immediately after the article is officially published. 
-You can also first check the performance of the **TiM4Rec** model by using the training log files we published. 😊
+[//]: # (Due to the laboratory regulations, the article has not been officially published before the model source code is not allowed to be published, )
+
+[//]: # (so the current repository is not complete, but do not worry, we will supplement the complete model code immediately after the article is officially published. )
+
+[//]: # (You can also first check the performance of the **TiM4Rec** model by using the training log files we published. 😊)
 
 如果您想阅读中文版本，请点击[README_CN.md](README_CN.md) 。
 ## 1. Introduction
@@ -123,7 +125,7 @@ checkpoint_path: saved/model_weight_name.pth
 ```
 
 ### 3.2 Baseline(Optional)
-You can directly select the baseline model we have organized in the [`📁 baseline`](baseline/) folder for training, taking `SASRec` as an example.
+You can directly select the baseline model we have organized in the [`📁 baseline`](baseline) folder for training, taking `SASRec` as an example.
 ```shell
 cd ./baseline/SASRec
 python run.py

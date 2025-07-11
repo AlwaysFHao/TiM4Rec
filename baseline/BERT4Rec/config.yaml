@@ -20,14 +20,22 @@ save_dataset: False
 #dataset: ml-1m
 #MAX_ITEM_LIST_LENGTH: 200       # 200 for MovieLens-1M
 
-dataset: amazon-beauty
+#dataset: amazon-beauty
 #dataset: kuairand
+dataset: steam
 MAX_ITEM_LIST_LENGTH: 50      # 50 for Amazon datasets
 
+# for ml-1m, beauty, kuairand
+#USER_ID_FIELD: user_id
+#ITEM_ID_FIELD: item_id
+#load_col:
+#    inter: [user_id, item_id, timestamp]
+
+# for steam
 USER_ID_FIELD: user_id
-ITEM_ID_FIELD: item_id
+ITEM_ID_FIELD: product_id
 load_col:
-    inter: [user_id, item_id, timestamp]
+    inter: [user_id, product_id, timestamp]
 
 user_inter_num_interval: "[5,inf)"
 item_inter_num_interval: "[5,inf)"

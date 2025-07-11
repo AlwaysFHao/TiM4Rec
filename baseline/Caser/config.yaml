@@ -13,17 +13,23 @@ loss_type: 'CE'                 # (str) Type of loss function. Range in ['BPR', 
 save_dataset: False
 
 #dataset settings
-dataset: ml-1m
-MAX_ITEM_LIST_LENGTH: 200       # 200 for MovieLens-1M
+#dataset: ml-1m
+#MAX_ITEM_LIST_LENGTH: 200       # 200 for MovieLens-1M
 
 #dataset: amazon-beauty
 #dataset: kuairand
-#MAX_ITEM_LIST_LENGTH: 50      # 50 for Amazon datasets
+dataset: steam
+MAX_ITEM_LIST_LENGTH: 50      # 50 for Amazon datasets
+
+#USER_ID_FIELD: user_id
+#ITEM_ID_FIELD: item_id
+#load_col:
+#    inter: [user_id, item_id, timestamp]
 
 USER_ID_FIELD: user_id
-ITEM_ID_FIELD: item_id
+ITEM_ID_FIELD: product_id
 load_col:
-    inter: [user_id, item_id, timestamp]
+    inter: [user_id, product_id, timestamp]
 
 user_inter_num_interval: "[5,inf)"
 item_inter_num_interval: "[5,inf)"

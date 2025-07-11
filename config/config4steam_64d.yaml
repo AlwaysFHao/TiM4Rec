@@ -1,34 +1,35 @@
 gpu_id: '0'
 log_wandb: False
+reproducibility: False
 
-# mamba4rec settings
+# tim4rec settings
 hidden_size: 64                 # (int) Number of features in the hidden state.
-num_layers: 2                  # (int) Number of Mamba layers.
+inner_size: 256
+num_layers: 2                 # (int) Number of TiSSD layers.
 dropout_prob: 0.2            # (float) Dropout rate.
+time_drop_out: 0.2
 loss_type: 'CE'                 # (str) Type of loss function. Range in ['BPR', 'CE'].
 
-d_state: 32                     # (int) SSM state expansion factor
+d_state: 32                     # (int) SSD state expansion factor
 d_conv: 4                       # (int) Local convolution width
 expand: 2                       # (int) Block expansion factor
+head_dim: 32                   # (int) Number of SSD heads
+chunk_size: 32                 # (int) Size of SSD Chunk
+norm_eps: 1e-10
 
-## dataset settings
-dataset: ml-1m
-MAX_ITEM_LIST_LENGTH: 200       # 200 for MovieLens-1M
+is_ffn: True
+is_time: True
+p2p_residual: False
+is_kai_ming_init: True
 
-# dataset: amazon-beauty
-#dataset: kuairand
-#dataset: steam
-#MAX_ITEM_LIST_LENGTH: 50      # 50 for Amazon datasets
+# dataset settings
+dataset: steam
+MAX_ITEM_LIST_LENGTH: 50      # 50 for KuaiRand datasets
 
 USER_ID_FIELD: user_id
-ITEM_ID_FIELD: item_id
+ITEM_ID_FIELD: product_id
 load_col:
-    inter: [user_id, item_id, timestamp]
-
-#USER_ID_FIELD: user_id
-#ITEM_ID_FIELD: product_id
-#load_col:
-#    inter: [user_id, product_id, timestamp]
+    inter: [user_id, product_id, timestamp]
 
 user_inter_num_interval: "[5,inf)"
 item_inter_num_interval: "[5,inf)"
@@ -37,7 +38,7 @@ item_inter_num_interval: "[5,inf)"
 epochs: 300
 train_batch_size: 2048
 learner: adam
-learning_rate: 0.001
+learning_rate: 0.0005
 eval_step: 1
 stopping_step: 20
 train_neg_sample_args: ~
@@ -47,5 +48,6 @@ train_from_scratch: False
 metrics: ['Hit', 'NDCG', 'MRR']
 valid_metric: NDCG@10
 eval_batch_size: 4096
+
 weight_decay: 0.0
 topk: [10, 20, 50]
