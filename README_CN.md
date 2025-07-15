@@ -106,6 +106,8 @@ cd TiM4Rec/
 
 本节将介绍模型的训练方法。
 
+**注意：** *由于SSD内核通过Triton实现，并且使用了auto-tuning调优，因此模型第一次迭代期间需要进行预热，TiM4Rec的实际运行时间请从第二个epoch开始统计。 （请参考 [Mamba2作者的回答](https://github.com/state-spaces/mamba/issues/389#issuecomment-2171755306)）*
+
 ### 3.1 TiM4Rec
 在准备好所有运行环境和必要文件(如数据集)后， 请按照以下格式修改 [`🐍 run.py`](run.py) 中的配置文件路径:
 ```python
