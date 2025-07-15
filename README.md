@@ -111,6 +111,8 @@ Ok, congratulations 🎇, you have finished all the preparation 👍, let's star
 
 This section will introduce the training methods of the model. 
 
+**Note:** *Since the SSD kernel is implemented with Triton and includes auto-tuning, the model requires a warm-up during the first iteration. Please record the actual runtime of TiM4Rec starting from the second epoch(refer to [Mamba2 Author's Answer](https://github.com/state-spaces/mamba/issues/389#issuecomment-2171755306)).*
+
 ### 3.1 TiM4Rec
 After preparing all the necessary files and runtime environment, please modify the configuration file path in [`🐍 run.py`](run.py) in the following format:
 ```python
