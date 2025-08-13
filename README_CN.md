@@ -1,16 +1,23 @@
 # TiM4Rec: An Efficient Sequential Recommendation Model Based on Time-Aware Structured State Space Duality Model
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tim4rec-an-efficient-sequential/sequential-recommendation-on-movielens-1m)](https://paperswithcode.com/sota/sequential-recommendation-on-movielens-1m?p=tim4rec-an-efficient-sequential)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tim4rec-an-efficient-sequential/sequential-recommendation-on-kuairand)](https://paperswithcode.com/sota/sequential-recommendation-on-kuairand?p=tim4rec-an-efficient-sequential)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tim4rec-an-efficient-sequential/sequential-recommendation-on-amazon-beauty)](https://paperswithcode.com/sota/sequential-recommendation-on-amazon-beauty?p=tim4rec-an-efficient-sequential)
+[//]: # (Paperwithcode is no longer available)
+[//]: # ([![PWC]&#40;https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tim4rec-an-efficient-sequential/sequential-recommendation-on-movielens-1m&#41;]&#40;https://paperswithcode.com/sota/sequential-recommendation-on-movielens-1m?p=tim4rec-an-efficient-sequential&#41;)
+
+[//]: # ([![PWC]&#40;https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tim4rec-an-efficient-sequential/sequential-recommendation-on-kuairand&#41;]&#40;https://paperswithcode.com/sota/sequential-recommendation-on-kuairand?p=tim4rec-an-efficient-sequential&#41;)
+
+[//]: # ([![PWC]&#40;https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/tim4rec-an-efficient-sequential/sequential-recommendation-on-amazon-beauty&#41;]&#40;https://paperswithcode.com/sota/sequential-recommendation-on-amazon-beauty?p=tim4rec-an-efficient-sequential&#41;)
 
 ![Stars](https://img.shields.io/github/stars/AlwaysFHao/TiM4Rec)
 
-[//]: # (由于实验室规定，文章未正式发表前不允许公布模型源代码，所以目前的资源库还不完整，不过您不用担心，文章正式发表后我们会立即补充完整的模型代码。)
+~~由于实验室规定，文章未正式发表前不允许公布模型源代码，所以目前的资源库还不完整，不过您不用担心，文章正式发表后我们会立即补充完整的模型代码。
+您也可以先使用我们发布的训练日志文件检查**TiM4Rec**模型的性能。😊~~
 
-[//]: # (您也可以先使用我们发布的训练日志文件检查**TiM4Rec**模型的性能。😊)
+**更新：** 🎉 TiM4Rec已被*Neurocomputing*录用！ 我们已经按照承诺开源了完整的模型代码！
+
+---
 
 If you want to read the English version, please click [README_Eng.md](README.md).
+
 ## 1. 概述
   <p align="center">
     <img src="assert/tim4rec.png" alt="overview_of_tim4rec"/>
@@ -18,7 +25,8 @@ If you want to read the English version, please click [README_Eng.md](README.md)
 
 > **TiM4Rec: An Efficient Sequential Recommendation Model Based on Time-Aware Structured State Space Duality Model**\
 > 范昊，朱萌逸，胡彦蓉，冯海林，何志杰，刘洪久，刘清扬\
-> Paper: https://arxiv.org/abs/2409.16182
+> 论文： 即将发布...\
+> 预印版: https://arxiv.org/abs/2409.16182
 
 我们提出了基于时间感知 SSD 的高效序列推荐模型***TiM4Rec***（Time-aware Mamba For Recommendation）。 
 我们在序列推荐领域对 Mamba 架构的时间感知增强方法进行了开创性的探索。 通过对 SSM 和 SSD 的深入分析，我们首次提出了适用于 SSD 架构的线性计算复杂度的时间感知增强方法。
@@ -48,7 +56,7 @@ cd TiM4Rec/
 您还可以在文件 [environment.yaml](environment.yaml) 查看所需的环境细节。
 
 ### 2.2 数据集
-我们的工作利用了以下三个数据集，其中包括由 [RecBole](https://github.com/RUCAIBox/RecSysDatasets) 提供的 [`🎦 MovieLens-1M`](https://grouplens.org/datasets/movielens/) 和 [`🛒 Amazon-Beauty`](https://jmcauley.ucsd.edu/data/amazon/index_2014.html)， 由 [SSD4Rec](https://arxiv.org/abs/2409.01192) 作者提供的 [`📱 KuaiRand`](https://kuairand.com/)， 以及[`🎮 Steam`](https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/Steam/not-merged/steam.zip)。 
+我们的工作利用了以下三个数据集，其中包括由 [RecBole](https://github.com/RUCAIBox/RecSysDatasets) 提供的 [`🎦 MovieLens-1M`](https://grouplens.org/datasets/movielens/) 、 [`🛒 Amazon-Beauty`](https://jmcauley.ucsd.edu/data/amazon/index_2014.html)和[`🎮 Steam`](https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/Steam/not-merged/steam.zip)， 由 [SSD4Rec](https://arxiv.org/abs/2409.01192) 作者提供的 [`📱 KuaiRand`](https://kuairand.com/)。 
 
 您可以通过以下链接获得所有的数据集： [Quark Drive (password: **SVzs**)](https://pan.quark.cn/s/8bb746acc798) / [BaiDu Cloud Drive (password: **1296**)](https://pan.baidu.com/s/10GUBfkdqd7iPiXTw5ulQtA?pwd=1296) / [Google Drive](https://drive.google.com/drive/folders/11_tqDeG5oA4c6Bz7tjgEnMTeI6BbnCUr?usp=sharing)。
 
