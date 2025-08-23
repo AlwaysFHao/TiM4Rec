@@ -25,7 +25,7 @@ You can also first check the performance of the **TiM4Rec** model by using the t
 
 > **TiM4Rec: An Efficient Sequential Recommendation Model Based on Time-Aware Structured State Space Duality Model**\
 > Hao Fan, Mengyi Zhu, Yanrong Hu, Hailin Feng, Zhijie He, Hongjiu Liu, Qingyang Liu\
-> Paper: Coming soon...\
+> Paper: https://doi.org/10.1016/j.neucom.2025.131270 (***⚠️ Limited-Time Free Access: Thanks to Elsevier's share link, the publisher's version is free to read and download until October 12, 2025. Access it here [Limited time license](https://authors.elsevier.com/c/1lelB3INukW9mV)***) \
 > Preprint: https://arxiv.org/abs/2409.16182
 
 We propose ***TiM4Rec***(Time-aware Mamba For Recommendation), an efficient sequential recommendation model based on Time-aware SSD. 
@@ -152,11 +152,33 @@ In addition, our readme document was written with reference to [MISSRec](https:/
 
 ## 5. References
 If you find this code useful or use the toolkit in your work, please consider citing:
+
 ```
-@article{fan2024tim4rec,
+@article{fan2025tim4rec,
+  title = {TiM4Rec: An efficient sequential recommendation model based on time-aware structured state space duality model},
+  author = {Hao Fan and Mengyi Zhu and Yanrong Hu and Hailin Feng and Zhijie He and Hongjiu Liu and Qingyang Liu},
+  journal = {Neurocomputing},
+  volume = {654},
+  pages = {131270},
+  year = {2025},
+  issn = {0925-2312},
+  doi = {https://doi.org/10.1016/j.neucom.2025.131270},
+  url = {https://www.sciencedirect.com/science/article/pii/S0925231225019423},
+  keywords = {Sequential recommendation, State space model (SSM), State space duality (SSD), Mamba, Time-awareness},
+}
+```
+
+```
+@misc{fan2024tim4rec,
   title={TiM4Rec: An Efficient Sequential Recommendation Model Based on Time-Aware Structured State Space Duality Model},
-  author={Fan, Hao and Zhu, Mengyi and Hu, Yanrong and Feng, Hailin and He, Zhijie and Liu, Hongjiu and Liu, Qingyang},
-  journal={arXiv preprint arXiv:2409.16182},
-  year={2024}
+  author = {Hao Fan and Mengyi Zhu and Yanrong Hu and Hailin Feng and Zhijie He and Hongjiu Liu and Qingyang Liu},
+  journal = {CoRR},
+  volume = {abs/2409.16182},
+  year = {2024},
+  doi = {10.48550/ARXIV.2409.16182},
+  eprinttype = {arXiv},
+  eprint = {2409.16182},
+  timestamp = {Wed, 16 Oct 2024 13:28:37 +0200},
+  archivePrefix="arXiv"
 }
 ```

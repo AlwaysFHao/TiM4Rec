@@ -25,7 +25,7 @@ If you want to read the English version, please click [README_Eng.md](README.md)
 
 > **TiM4Rec: An Efficient Sequential Recommendation Model Based on Time-Aware Structured State Space Duality Model**\
 > 范昊，朱萌逸，胡彦蓉，冯海林，何志杰，刘洪久，刘清扬\
-> 论文： 即将发布...\
+> 论文： https://doi.org/10.1016/j.neucom.2025.131270 (***⚠️ 限时免费许可: 感谢爱思维尔提供的免费分享链接, 正式发表版本可在2025年10月12日前免费获取。 点击此处获取 [限时许可](https://authors.elsevier.com/c/1lelB3INukW9mV)***)\
 > 预印版: https://arxiv.org/abs/2409.16182
 
 我们提出了基于时间感知 SSD 的高效序列推荐模型***TiM4Rec***（Time-aware Mamba For Recommendation）。 
@@ -150,10 +150,31 @@ python test.py
 ## 5. 引用
 如果我们的工作对您有所启发或提供了参考，请考虑引用：
 ```
-@article{fan2024tim4rec,
+@article{fan2025tim4rec,
+  title = {TiM4Rec: An efficient sequential recommendation model based on time-aware structured state space duality model},
+  author = {Hao Fan and Mengyi Zhu and Yanrong Hu and Hailin Feng and Zhijie He and Hongjiu Liu and Qingyang Liu},
+  journal = {Neurocomputing},
+  volume = {654},
+  pages = {131270},
+  year = {2025},
+  issn = {0925-2312},
+  doi = {https://doi.org/10.1016/j.neucom.2025.131270},
+  url = {https://www.sciencedirect.com/science/article/pii/S0925231225019423},
+  keywords = {Sequential recommendation, State space model (SSM), State space duality (SSD), Mamba, Time-awareness},
+}
+```
+
+```
+@misc{fan2024tim4rec,
   title={TiM4Rec: An Efficient Sequential Recommendation Model Based on Time-Aware Structured State Space Duality Model},
-  author={Fan, Hao and Zhu, Mengyi and Hu, Yanrong and Feng, Hailin and He, Zhijie and Liu, Hongjiu and Liu, Qingyang},
-  journal={arXiv preprint arXiv:2409.16182},
-  year={2024}
+  author = {Hao Fan and Mengyi Zhu and Yanrong Hu and Hailin Feng and Zhijie He and Hongjiu Liu and Qingyang Liu},
+  journal = {CoRR},
+  volume = {abs/2409.16182},
+  year = {2024},
+  doi = {10.48550/ARXIV.2409.16182},
+  eprinttype = {arXiv},
+  eprint = {2409.16182},
+  timestamp = {Wed, 16 Oct 2024 13:28:37 +0200},
+  archivePrefix="arXiv"
 }
 ```
